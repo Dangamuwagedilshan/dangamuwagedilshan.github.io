@@ -3,54 +3,52 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CREATREEBU — Diseño y soluciones digitales para negocios</title>
-  <meta name="description" content="CREATREEBU es un estudio independiente de diseño y soluciones digitales para negocios de Argentina: piezas para redes sociales, promociones, flyers, identidad visual y landing pages. Pedí tu presupuesto por WhatsApp.">
-  <meta name="theme-color" content="#16150F">
+  <title>CREATREEBU | Estudio creativo de diseño gráfico digital</title>
+  <meta name="description" content="CREATREEBU es un estudio creativo independiente de diseño gráfico digital. Identidad visual, packaging, piezas comerciales y campañas para marcas de toda Argentina.">
+  <meta name="theme-color" content="#1E4D34">
   <meta name="referrer" content="no-referrer">
+  <link rel="canonical" href="https://creatreebu.github.io/">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:locale" content="es_AR">
   <meta property="og:site_name" content="CREATREEBU">
-  <meta property="og:title" content="CREATREEBU — Diseño y soluciones digitales para negocios">
-  <meta property="og:description" content="Piezas para redes, promociones, flyers, identidad visual y landing pages. Pack Comercial Express: 6 piezas + 4 historias en 3 a 5 días hábiles.">
+  <meta property="og:url" content="https://creatreebu.github.io/">
+  <meta property="og:title" content="CREATREEBU | Estudio creativo de diseño gráfico digital">
+  <meta property="og:description" content="Marcas con cara propia: identidad visual, packaging, piezas comerciales y campañas para redes. Consultá por WhatsApp.">
   <meta name="twitter:card" content="summary">
-  <!-- Cuando tengas la URL publicada, podés sumar:
-       <meta property="og:url" content="https://TU-USUARIO.github.io/TU-REPO/">
-       <meta property="og:image" content="https://TU-USUARIO.github.io/TU-REPO/imagen.jpg"> -->
 
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2316150F'/%3E%3Crect x='7' y='14' width='4' height='11' rx='2' fill='%23C6F432'/%3E%3Crect x='14' y='7' width='4' height='18' rx='2' fill='%23C6F432'/%3E%3Crect x='21' y='11' width='4' height='14' rx='2' fill='%23C6F432'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
 
   <!-- ENCABEZADO -->
-  <header class="site-header" id="inicio">
-    <div class="container header-inner">
-      <a class="brand" href="#inicio" aria-label="CREATREEBU, ir al inicio">
-        <!-- Identidad tipográfica provisional: reemplazable por el logo original (ver README al final de la entrega) -->
-        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
-          <rect x="7" y="14" width="4" height="11" rx="2"/>
-          <rect x="14" y="7" width="4" height="18" rx="2"/>
-          <rect x="21" y="11" width="4" height="14" rx="2"/>
+  <header class="cab">
+    <div class="contenedor cab-fila">
+      <a class="marca" href="#inicio" aria-label="CREATREEBU, ir al inicio">
+        <svg class="marca-signo" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <rect width="32" height="32" rx="7" fill="#16150F"/>
+          <rect x="7" y="14" width="4" height="11" rx="2" fill="#C6F432"/>
+          <rect x="14" y="7" width="4" height="18" rx="2" fill="#C6F432"/>
+          <rect x="21" y="11" width="4" height="14" rx="2" fill="#C6F432"/>
         </svg>
-        <span class="brand-word">CREA<span>TREE</span>BU</span>
+        <span class="marca-texto">CREA<span>TREE</span>BU</span>
       </a>
 
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
-        <span class="menu-toggle-bars" aria-hidden="true"></span>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span class="menu-barras" aria-hidden="true"></span>
       </button>
 
-      <nav class="site-nav" id="menu" aria-label="Principal">
+      <nav class="nav" id="menu" aria-label="Principal">
         <ul>
+          <li><a href="#proyectos">Proyectos</a></li>
           <li><a href="#servicios">Servicios</a></li>
           <li><a href="#pack">Pack Express</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#proceso">Proceso</a></li>
-          <li><a href="#faq">Preguntas</a></li>
+          <li><a href="#estudio">Estudio</a></li>
         </ul>
-        <a class="btn btn--small" href="#contacto" data-wa="general">Consultar por WhatsApp</a>
+        <a class="btn btn--llama btn--sm" href="#contacto">Contacto</a>
       </nav>
     </div>
   </header>
@@ -58,347 +56,252 @@
   <main id="contenido">
 
     <!-- HERO -->
-    <section class="hero" aria-labelledby="hero-titulo">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Estudio independiente de diseño y soluciones digitales</p>
-          <h1 id="hero-titulo">Que tu negocio se vea tan bien como lo que ofrece.</h1>
-          <p class="lead">Diseño para redes, promociones y webs sencillas. Piezas claras y coherentes para comercios, alojamientos, gastronomía e inmobiliarias de toda Argentina.</p>
-          <div class="cta-row">
-            <a class="btn" href="#contacto" data-wa="general">Pedir presupuesto por WhatsApp</a>
-            <a class="btn btn--ghost" href="#pack">Ver el Pack Comercial Express</a>
+    <section class="hero" id="inicio" aria-labelledby="titulo-hero">
+      <div class="contenedor">
+        <h1 class="h1" id="titulo-hero"><span class="l"><span>Marcas con</span></span> <span class="l"><span>cara propia.</span></span></h1>
+
+        <div class="hero-pie">
+          <div class="hero-texto">
+            <p class="lead">Creatreebu es un estudio creativo independiente de diseño gráfico digital. Diseñamos identidad, packaging, piezas comerciales y campañas para marcas de toda Argentina.</p>
+            <div class="acciones">
+              <a class="btn btn--papel" href="#proyectos">Ver proyectos</a>
+              <a class="btn btn--llama" href="#contacto" data-wa="general">Consultar por WhatsApp</a>
+            </div>
           </div>
-          <p class="fine">Sin precios de lista: cada presupuesto se arma según tu negocio.</p>
-        </div>
 
-        <div class="hero-art" aria-hidden="true">
-          <svg viewBox="0 0 520 560" focusable="false">
-            <rect x="40" y="70" width="270" height="340" rx="14" fill="#16150F" transform="rotate(-6 175 240)"/>
-            <rect x="60" y="100" width="90" height="10" rx="5" fill="#C6F432" transform="rotate(-6 175 240)"/>
-            <rect x="60" y="130" width="200" height="14" rx="7" fill="#F4F0E8" transform="rotate(-6 175 240)"/>
-            <rect x="60" y="154" width="150" height="14" rx="7" fill="#F4F0E8" transform="rotate(-6 175 240)"/>
-            <rect x="60" y="300" width="110" height="34" rx="17" fill="#C6F432" transform="rotate(-6 175 240)"/>
-
-            <rect x="210" y="150" width="270" height="340" rx="14" fill="#C6F432" transform="rotate(5 345 320)"/>
-            <circle cx="345" cy="270" r="74" fill="#16150F" transform="rotate(5 345 320)"/>
-            <circle cx="345" cy="270" r="34" fill="#C6F432" transform="rotate(5 345 320)"/>
-            <rect x="232" y="390" width="150" height="14" rx="7" fill="#16150F" transform="rotate(5 345 320)"/>
-            <rect x="232" y="414" width="100" height="14" rx="7" fill="#1E4D34" transform="rotate(5 345 320)"/>
-
-            <rect x="300" y="20" width="150" height="266" rx="18" fill="#1E4D34" transform="rotate(-2 375 153)"/>
-            <rect x="320" y="46" width="60" height="8" rx="4" fill="#F4F0E8" transform="rotate(-2 375 153)"/>
-            <path d="M320 230 L375 130 L430 230 Z" fill="#C6F432" transform="rotate(-2 375 153)"/>
-          </svg>
+          <div class="hero-muestras">
+            <div class="chips" id="chips" role="group" aria-label="Proyectos conceptuales destacados"></div>
+            <p class="muestras-nota">Marcas ficticias, cada una con su dirección de arte. Tocá una ficha para verla completa.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- SERVICIOS -->
-    <section class="section" id="servicios" aria-labelledby="servicios-titulo">
-      <div class="container">
-        <header class="section-head reveal">
-          <p class="eyebrow">Servicios</p>
-          <h2 id="servicios-titulo">Lo que hacemos para que comuniques mejor</h2>
-          <p class="section-intro">Empezamos por lo que más rápido se nota en tu negocio: la comunicación en redes y promociones. El resto está disponible a medida que lo necesites.</p>
-        </header>
+    <!-- PROYECTOS -->
+    <section class="sec" id="proyectos" aria-labelledby="titulo-proyectos">
+      <div class="contenedor">
+        <div class="sec-cab">
+          <h2 id="titulo-proyectos">Proyectos</h2>
+          <p>Todos los proyectos de esta página son conceptuales: marcas ficticias creadas para mostrar cómo trabajamos. Los trabajos con clientes reales se irán sumando a medida que estén listos.</p>
+        </div>
 
-        <div class="cards">
-          <article class="card card--main reveal">
-            <span class="card-num">01</span>
-            <h3>Publicaciones e historias para redes</h3>
-            <p>Piezas pensadas para el scroll: un mensaje por pieza, jerarquía clara y formato adaptado a cada red.</p>
-            <p class="card-benefit">Tu perfil se ve ordenado y se entiende qué ofrecés.</p>
+        <div class="filtros" id="filtros" role="group" aria-label="Filtrar proyectos por categoría"></div>
+        <p class="sr-only" id="filtro-estado" aria-live="polite"></p>
+        <div class="grilla" id="grilla"></div>
+        <noscript><p class="aviso-js">Para ver los proyectos necesitás tener JavaScript activado en el navegador.</p></noscript>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="sec sec--marino" id="servicios" aria-labelledby="titulo-servicios">
+      <div class="contenedor">
+        <div class="sec-cab">
+          <h2 id="titulo-servicios">Qué diseñamos</h2>
+          <p>Cinco áreas de trabajo para que tu marca se vea coherente y comunique con claridad, en la calle y en la pantalla.</p>
+        </div>
+
+        <div class="serv-lista">
+          <article class="serv">
+            <svg viewBox="0 0 56 56" aria-hidden="true" focusable="false"><circle cx="21" cy="30" r="17" fill="#C6F432"/><rect x="24" y="12" width="26" height="26" fill="#3E8A5F"/><path d="M12 52 L24 34 L36 52Z" fill="#F4F0E8"/></svg>
+            <h3>Identidad visual y sistemas gráficos de marca</h3>
+            <p>Logotipo, paleta, tipografías y reglas de uso para que tu marca se reconozca en cualquier soporte.</p>
+            <a class="enlace" href="#contacto" data-wa="servicio-identidad">Consultar por este servicio</a>
           </article>
-          <article class="card card--main reveal">
-            <span class="card-num">02</span>
-            <h3>Packs para promociones</h3>
-            <p>Series de piezas para una campaña, una temporada o un lanzamiento, con una misma línea visual.</p>
-            <p class="card-benefit">Comunicás tus promos sin rehacer el diseño cada vez.</p>
+
+          <article class="serv">
+            <svg viewBox="0 0 56 56" aria-hidden="true" focusable="false"><rect x="8" y="4" width="40" height="48" fill="#F4F0E8"/><path d="M28 12 L32 20 L41 21 L34 27 L36 36 L28 31 L20 36 L22 27 L15 21 L24 20Z" fill="#3E8A5F"/><rect x="14" y="40" width="28" height="5" fill="#C6F432"/></svg>
+            <h3>Piezas comerciales y promocionales</h3>
+            <p>Flyers, carteles, folletos y anuncios que dejan clara la oferta en pocos segundos.</p>
+            <a class="enlace" href="#contacto" data-wa="servicio-piezas">Consultar por este servicio</a>
           </article>
-          <article class="card reveal">
-            <span class="card-num">03</span>
-            <h3>Flyers, publicidad e identidad visual</h3>
-            <p>Gráfica para difusión e impresión, y una identidad simple (paleta, tipografías, uso del logo) para que todo se reconozca como tuyo.</p>
-            <p class="card-benefit">Una imagen coherente en todos tus canales.</p>
+
+          <article class="serv">
+            <svg viewBox="0 0 56 56" aria-hidden="true" focusable="false"><rect x="4" y="14" width="24" height="24" fill="#F4F0E8"/><rect x="18" y="20" width="24" height="24" fill="#C6F432"/><rect x="32" y="8" width="20" height="20" fill="#3E8A5F"/></svg>
+            <h3>Publicaciones y campañas para redes sociales</h3>
+            <p>Series de publicaciones e historias con una línea visual propia, listas para subir.</p>
+            <a class="enlace" href="#contacto" data-wa="servicio-redes">Consultar por este servicio</a>
           </article>
-          <article class="card reveal">
-            <span class="card-num">04</span>
-            <h3>Landing pages y webs sencillas</h3>
-            <p>Una página clara y rápida, pensada para que te escriban, te reserven o te pidan presupuesto. Sin sistemas complejos.</p>
-            <p class="card-benefit">Un lugar propio donde mandar a quien te encuentra.</p>
+
+          <article class="serv">
+            <svg viewBox="0 0 56 56" aria-hidden="true" focusable="false"><rect x="14" y="4" width="28" height="48" rx="6" fill="#F4F0E8"/><rect x="14" y="20" width="28" height="18" fill="#3E8A5F"/><circle cx="28" cy="29" r="5" fill="#C6F432"/></svg>
+            <h3>Packaging, etiquetas y diseño editorial</h3>
+            <p>Envases, etiquetas, catálogos, revistas y folletos con composición cuidada y archivos listos para imprimir.</p>
+            <a class="enlace" href="#contacto" data-wa="servicio-packaging">Consultar por este servicio</a>
           </article>
-          <article class="card card--soon reveal">
-            <span class="card-num">05</span>
-            <h3>Recursos y productos digitales</h3>
-            <p>Plantillas y recursos para ordenar la comunicación de más negocios. Es una línea en desarrollo y se irá sumando de a poco.</p>
-            <p class="tag">En desarrollo</p>
+
+          <article class="serv">
+            <svg viewBox="0 0 56 56" aria-hidden="true" focusable="false"><rect x="4" y="9" width="48" height="32" rx="3" fill="#F4F0E8"/><circle cx="19" cy="25" r="8" fill="#C6F432"/><rect x="31" y="18" width="14" height="4" fill="#3E8A5F"/><rect x="31" y="27" width="10" height="4" fill="#3E8A5F"/><rect x="20" y="46" width="16" height="4" fill="#F4F0E8"/></svg>
+            <h3>Gráfica para productos y comunicación digital</h3>
+            <p>Piezas para productos y comunicación online: banners, presentaciones, mailings y recursos digitales.</p>
+            <a class="enlace" href="#contacto" data-wa="servicio-digital">Consultar por este servicio</a>
           </article>
         </div>
       </div>
     </section>
 
     <!-- PACK COMERCIAL EXPRESS -->
-    <section class="section section--dark" id="pack" aria-labelledby="pack-titulo">
-      <div class="container pack-grid">
-        <div class="pack-copy reveal">
-          <p class="eyebrow">Oferta principal</p>
-          <h2 id="pack-titulo">Pack Comercial Express</h2>
-          <p class="lead">Todo lo que necesitás para comunicar una promo o reordenar tus redes, resuelto en una sola entrega y con un alcance claro desde el principio.</p>
-          <ul class="checklist">
-            <li>6 piezas gráficas para redes sociales</li>
-            <li>4 historias adaptadas a formato vertical</li>
-            <li>Textos promocionales breves</li>
-            <li>Una ronda de ajustes</li>
-          </ul>
-          <p class="fine">Para empezar necesitamos de tu parte: logo (si lo tenés), fotos del producto o lugar, y los datos de la promo. El plazo estimado corre desde la recepción de los materiales y la aprobación de la propuesta.</p>
-          <div class="cta-row">
-            <a class="btn btn--lime" href="#contacto" data-wa="pack">Solicitar presupuesto del Pack</a>
+    <section class="sec sec--papel2" id="pack" aria-labelledby="titulo-pack">
+      <div class="contenedor pack-grid">
+        <div class="pack-texto">
+          <h2 id="titulo-pack">Pack Comercial Express</h2>
+          <p class="lead">Una primera entrega concreta para empezar a trabajar juntos: piezas para redes sociales con tu identidad aplicada, listas para publicar.</p>
+          <p class="suave"><strong>Qué necesitamos de tu parte:</strong> tu logo y, si los tenés, colores y tipografías; fotos o material de tu producto; y el texto o los datos de lo que querés comunicar.</p>
+          <div class="acciones">
+            <a class="btn btn--marino" href="#contacto" data-wa="pack">Pedir presupuesto del Pack</a>
           </div>
+          <p class="fine">El alcance, el plazo y el presupuesto se confirman por escrito antes de empezar. No hay precios de lista.</p>
         </div>
 
-        <div class="pack-stats reveal" role="list" aria-label="Contenido del pack">
-          <div class="stat" role="listitem"><strong>6</strong><span>piezas para el feed</span></div>
-          <div class="stat" role="listitem"><strong>4</strong><span>historias verticales</span></div>
-          <div class="stat" role="listitem"><strong>1</strong><span>ronda de ajustes</span></div>
-          <div class="stat" role="listitem"><strong>3–5</strong><span>días hábiles estimados</span></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PORTFOLIO CONCEPTUAL -->
-    <section class="section" id="portfolio" aria-labelledby="portfolio-titulo">
-      <div class="container">
-        <header class="section-head reveal">
-          <p class="eyebrow">Portfolio conceptual</p>
-          <h2 id="portfolio-titulo">Así podría verse tu comunicación</h2>
-          <p class="section-intro">Tres proyectos conceptuales creados para mostrar el enfoque de trabajo. No son clientes reales ni trabajos entregados: son ejemplos de composición, jerarquía y tono para distintos rubros.</p>
-        </header>
-
-        <div class="portfolio">
-          <!-- Concepto 1: alojamiento turístico -->
-          <figure class="work reveal">
-            <svg viewBox="0 0 400 500" role="img" aria-labelledby="w1-t w1-d" class="work-art">
-              <title id="w1-t">Concepto: publicación para un alojamiento turístico</title>
-              <desc id="w1-d">Pieza de redes con una cabaña frente al mar, un sol y el texto Tu escapada de otoño en la costa.</desc>
-              <rect width="400" height="500" fill="#EFE3C8"/>
-              <circle cx="300" cy="130" r="58" fill="#E9A33B"/>
-              <rect y="300" width="400" height="200" fill="#1E4D34"/>
-              <path d="M0 330 Q50 312 100 330 T200 330 T300 330 T400 330 V360 H0Z" fill="#2B6847"/>
-              <path d="M0 365 Q50 348 100 365 T200 365 T300 365 T400 365 V400 H0Z" fill="#348055"/>
-              <rect x="70" y="238" width="120" height="70" fill="#F4F0E8"/>
-              <path d="M58 242 L130 190 L202 242Z" fill="#16150F"/>
-              <rect x="112" y="266" width="32" height="42" fill="#C6F432"/>
-              <rect x="82" y="256" width="20" height="20" fill="#16150F"/>
-              <text x="32" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="14" letter-spacing="3" fill="#16150F">CASA DUNA · CONCEPTO</text>
-              <text x="32" y="420" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#F4F0E8">Tu escapada</text>
-              <text x="32" y="462" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-style="italic" fill="#C6F432">de otoño.</text>
-              <rect x="258" y="440" width="112" height="32" rx="16" fill="#C6F432"/>
-              <text x="314" y="461" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#16150F">Reservá tu fecha</text>
-            </svg>
-            <figcaption><strong>Alojamiento turístico</strong><span>Proyecto conceptual · Publicación para redes</span></figcaption>
-          </figure>
-
-          <!-- Concepto 2: gastronomía -->
-          <figure class="work reveal">
-            <svg viewBox="0 0 400 500" role="img" aria-labelledby="w2-t w2-d" class="work-art">
-              <title id="w2-t">Concepto: publicación para un restaurante</title>
-              <desc id="w2-d">Pieza oscura con un plato visto desde arriba y el texto Menú del día, de lunes a viernes.</desc>
-              <rect width="400" height="500" fill="#16150F"/>
-              <circle cx="200" cy="215" r="132" fill="#F4F0E8"/>
-              <circle cx="200" cy="215" r="104" fill="none" stroke="#16150F" stroke-width="2"/>
-              <circle cx="200" cy="215" r="70" fill="#C6F432"/>
-              <circle cx="178" cy="200" r="22" fill="#1E4D34"/>
-              <circle cx="226" cy="232" r="16" fill="#16150F"/>
-              <circle cx="214" cy="190" r="9" fill="#F4F0E8"/>
-              <path d="M40 95 V40 M52 95 V40 M64 95 V40 M52 95 V150" stroke="#F4F0E8" stroke-width="3" fill="none" stroke-linecap="round"/>
-              <text x="32" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="3" fill="#C6F432">FOGÓN NORTE · CONCEPTO</text>
-              <text x="32" y="400" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#F4F0E8">Menú del día</text>
-              <text x="32" y="432" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#C9C4B6">Entrada, plato principal y postre.</text>
-              <text x="32" y="466" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="2" font-weight="700" fill="#C6F432">DE LUNES A VIERNES</text>
-            </svg>
-            <figcaption><strong>Gastronomía</strong><span>Proyecto conceptual · Publicación para redes</span></figcaption>
-          </figure>
-
-          <!-- Concepto 3: comercio minorista (historia vertical) -->
-          <figure class="work work--story reveal">
-            <svg viewBox="0 0 270 480" role="img" aria-labelledby="w3-t w3-d" class="work-art">
-              <title id="w3-t">Concepto: historia vertical para un comercio minorista</title>
-              <desc id="w3-d">Historia con bloques de color y el texto Últimos días, liquidación de temporada.</desc>
-              <rect width="270" height="480" fill="#C6F432"/>
-              <rect x="0" y="0" width="270" height="170" fill="#16150F"/>
-              <rect x="24" y="190" width="100" height="150" fill="#1E4D34"/>
-              <circle cx="190" cy="265" r="62" fill="#16150F"/>
-              <rect x="150" y="345" width="96" height="14" fill="#16150F"/>
-              <text x="24" y="42" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="3" font-weight="700" fill="#C6F432">TALLER VERDE · CONCEPTO</text>
-              <text x="24" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="36" fill="#F4F0E8">Últimos</text>
-              <text x="24" y="142" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-style="italic" fill="#C6F432">días.</text>
-              <text x="24" y="412" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#16150F">Liquidación</text>
-              <text x="24" y="442" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#16150F">de temporada</text>
-            </svg>
-            <figcaption><strong>Comercio minorista</strong><span>Proyecto conceptual · Historia vertical</span></figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <!-- POR QUÉ ELEGIR CREATREEBU -->
-    <section class="section section--tint" id="por-que" aria-labelledby="porque-titulo">
-      <div class="container">
-        <header class="section-head reveal">
-          <p class="eyebrow">Por qué elegir Creatreebu</p>
-          <h2 id="porque-titulo">Criterio de diseñador, trato directo</h2>
-        </header>
-        <div class="reasons">
-          <article class="reason reveal">
-            <h3>Hablás con quien diseña</h3>
-            <p>Sin intermediarios ni cadenas de mensajes: la persona que recibe tu consulta es la que trabaja en tu propuesta.</p>
-          </article>
-          <article class="reason reveal">
-            <h3>Formación en diseño gráfico</h3>
-            <p>Licenciatura en Diseño Gráfico y práctica en diseño web: el criterio visual está detrás de cada decisión de composición, color y tipografía.</p>
-          </article>
-          <article class="reason reveal">
-            <h3>Diseño y web en un mismo lugar</h3>
-            <p>Las piezas de redes y la página adonde llevan al cliente comparten la misma identidad, sin tener que coordinar entre proveedores.</p>
-          </article>
-          <article class="reason reveal">
-            <h3>Alcance claro desde el inicio</h3>
-            <p>Antes de empezar sabés qué incluye el trabajo, cuántos ajustes tiene y el plazo estimado. Sin sorpresas a mitad de camino.</p>
-          </article>
-          <article class="reason reveal">
-            <h3>Pensado para comunicar y vender</h3>
-            <p>Cada pieza tiene un objetivo: que se entienda la promo, se reconozca tu marca y el cliente sepa cómo contactarte.</p>
-          </article>
-          <article class="reason reveal">
-            <h3>Atención personalizada</h3>
-            <p>Trabajamos desde la Costa Atlántica y atendemos a negocios de todo el país de forma remota, con seguimiento por WhatsApp.</p>
-          </article>
+        <div class="ficha">
+          <div class="ficha-fila">
+            <h3>5 piezas</h3>
+            <p>Gráficas originales para redes sociales.</p>
+          </div>
+          <div class="ficha-fila">
+            <h3>Formatos</h3>
+            <p>Adaptación de los formatos que acordemos, por ejemplo publicación e historia.</p>
+          </div>
+          <div class="ficha-fila">
+            <h3>Tu identidad</h3>
+            <p>Aplicación de tu identidad visual existente: logo, colores y tipografías.</p>
+          </div>
+          <div class="ficha-fila">
+            <h3>2 rondas</h3>
+            <p>De ajustes sobre las piezas presentadas.</p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- PROCESO -->
-    <section class="section" id="proceso" aria-labelledby="proceso-titulo">
-      <div class="container">
-        <header class="section-head reveal">
-          <p class="eyebrow">Proceso de trabajo</p>
-          <h2 id="proceso-titulo">Tres pasos, sin vueltas</h2>
-        </header>
-        <ol class="steps">
-          <li class="step reveal">
-            <span class="step-num" aria-hidden="true">1</span>
-            <h3>Consulta</h3>
-            <p>Nos escribís por WhatsApp y contás qué vendés, a quién y qué querés comunicar. Podés sumar fotos o ejemplos que te gusten.</p>
+    <section class="sec" id="proceso" aria-labelledby="titulo-proceso">
+      <div class="contenedor">
+        <div class="sec-cab">
+          <h2 id="titulo-proceso">Cómo trabajamos</h2>
+          <p>Cinco pasos, con acuerdos por escrito desde el principio.</p>
+        </div>
+        <ol class="pasos">
+          <li class="paso">
+            <span class="paso-num" aria-hidden="true">1</span>
+            <h3>Consulta inicial</h3>
+            <p>Nos contás qué hace tu negocio, qué querés comunicar y qué material ya tenés.</p>
           </li>
-          <li class="step reveal">
-            <span class="step-num" aria-hidden="true">2</span>
-            <h3>Definición de la propuesta</h3>
-            <p>Te enviamos el alcance, el plazo estimado y el presupuesto por escrito. Ajustamos lo que haga falta y confirmamos antes de empezar.</p>
+          <li class="paso">
+            <span class="paso-num" aria-hidden="true">2</span>
+            <h3>Definición de alcance</h3>
+            <p>Acordamos piezas, formatos, plazo y presupuesto, todo por escrito.</p>
           </li>
-          <li class="step reveal">
-            <span class="step-num" aria-hidden="true">3</span>
-            <h3>Diseño y entrega</h3>
-            <p>Diseñamos las piezas, las revisás y hacemos la ronda de ajustes. Te entregamos los archivos finales listos para publicar.</p>
+          <li class="paso">
+            <span class="paso-num" aria-hidden="true">3</span>
+            <h3>Diseño y presentación</h3>
+            <p>Diseñamos las piezas y te las presentamos para que las revises.</p>
+          </li>
+          <li class="paso">
+            <span class="paso-num" aria-hidden="true">4</span>
+            <h3>Ajustes acordados</h3>
+            <p>Incorporamos los cambios incluidos en el alcance. En el Pack son dos rondas.</p>
+          </li>
+          <li class="paso">
+            <span class="paso-num" aria-hidden="true">5</span>
+            <h3>Entrega de archivos finales</h3>
+            <p>Recibís los archivos listos para publicar o imprimir, en los formatos acordados.</p>
           </li>
         </ol>
       </div>
     </section>
 
-    <!-- PREGUNTAS FRECUENTES -->
-    <section class="section section--tint" id="faq" aria-labelledby="faq-titulo">
-      <div class="container faq-wrap">
-        <header class="section-head reveal">
-          <p class="eyebrow">Preguntas frecuentes</p>
-          <h2 id="faq-titulo">Lo que suelen preguntar antes de empezar</h2>
-        </header>
-        <div class="faq reveal">
-          <details>
-            <summary>¿Qué incluye exactamente el Pack Comercial Express?</summary>
-            <p>6 piezas gráficas para redes sociales, 4 historias en formato vertical, textos promocionales breves y una ronda de ajustes. Si necesitás algo distinto (más piezas, otros formatos), lo cotizamos a medida.</p>
-          </details>
-          <details>
-            <summary>¿Qué materiales tengo que enviar?</summary>
-            <p>Tu logo si lo tenés, fotos del producto, local o alojamiento, y los datos de la promo (qué ofrecés, vigencia y cómo contactarte). Si algo falta, lo vemos juntos en la consulta.</p>
-          </details>
-          <details>
-            <summary>¿Cuánto tarda?</summary>
-            <p>El plazo estimado del Pack es de 3 a 5 días hábiles. Corre desde que recibimos los materiales completos y se aprueba la propuesta, y puede variar si las devoluciones demoran.</p>
-          </details>
-          <details>
-            <summary>¿Cuántos ajustes puedo pedir?</summary>
-            <p>El Pack incluye una ronda de ajustes sobre las piezas entregadas. Para que rinda, conviene juntar todos los comentarios en un solo mensaje. Rondas adicionales se acuerdan aparte.</p>
-          </details>
-          <details>
-            <summary>¿Cómo se contrata y cómo se paga?</summary>
-            <p>Escribís por WhatsApp, te enviamos el presupuesto por escrito y, cuando lo aceptás, se coordina la forma de pago antes de empezar a trabajar. No hay precios de lista porque cada proyecto se cotiza según su alcance.</p>
-          </details>
-          <details>
-            <summary>¿Trabajan con negocios de cualquier lugar del país?</summary>
-            <p>Sí. Todo el trabajo se coordina online, por WhatsApp. Estamos en Las Toninas, Partido de La Costa, Buenos Aires.</p>
-          </details>
-          <details>
-            <summary>¿Hacen páginas web?</summary>
-            <p>Sí: landing pages y páginas web sencillas, pensadas para que te contacten o te reserven. Contanos qué necesitás y te pasamos una propuesta.</p>
-          </details>
-          <details>
-            <summary>¿Entregan los archivos editables?</summary>
-            <p>Se entregan los archivos finales listos para publicar. Si necesitás versiones editables, consultalo al pedir el presupuesto para dejarlo acordado.</p>
-          </details>
+    <!-- ESTUDIO -->
+    <section class="sec sec--papel2" id="estudio" aria-labelledby="titulo-estudio">
+      <div class="contenedor">
+        <h2 class="sr-only" id="titulo-estudio">El estudio</h2>
+        <p class="manifiesto">Creatreebu es un estudio creativo independiente de diseño gráfico digital: entendemos qué necesita comunicar tu negocio y lo resolvemos con criterio visual.</p>
+        <div class="estudio-datos">
+          <div>
+            <h3>Trato directo</h3>
+            <p>Cada consulta se responde de forma personal, sin intermediarios.</p>
+          </div>
+          <div>
+            <h3>Atención remota</h3>
+            <p>Trabajamos online con marcas y negocios de toda Argentina.</p>
+          </div>
+          <div>
+            <h3>Criterio visual</h3>
+            <p>Cada proyecto parte de una dirección de arte propia, como se ve en el portfolio.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- CTA FINAL -->
-    <section class="section final-cta" id="contacto" aria-labelledby="cta-titulo">
-      <div class="container final-inner reveal">
-        <p class="eyebrow">Contacto</p>
-        <h2 id="cta-titulo">Contanos qué querés comunicar.</h2>
-        <p class="lead">Escribinos por WhatsApp con una idea o una promo en mente y te respondemos con una propuesta a tu medida.</p>
-        <div class="cta-row cta-row--center">
-          <a class="btn btn--lime" href="#contacto" data-wa="general">Iniciar consulta por WhatsApp</a>
-          <a class="btn btn--outline-light" href="#contacto" data-wa="web">Consultar por una web</a>
+    <!-- CONTACTO -->
+    <section class="sec sec--cobalto contacto" id="contacto" aria-labelledby="titulo-contacto">
+      <div class="contenedor">
+        <h2 class="contacto-titulo" id="titulo-contacto">Contanos qué necesitás.</h2>
+        <p class="lead">Escribinos por WhatsApp y te respondemos con una propuesta de alcance y presupuesto.</p>
+        <div class="acciones">
+          <a class="btn btn--llama" href="#contacto" data-wa="general">Escribir por WhatsApp</a>
+          <a class="btn btn--linea" href="#contacto" data-wa="pack">Consultar por el Pack</a>
         </div>
-        <noscript><p class="fine">Los botones de WhatsApp requieren JavaScript activado en el navegador.</p></noscript>
+        <ul class="contacto-datos" id="contacto-datos"></ul>
       </div>
     </section>
   </main>
 
   <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <p class="footer-brand"><span class="brand-word">CREA<span>TREE</span>BU</span></p>
-        <p class="footer-text">Estudio independiente de diseño y soluciones digitales para negocios.</p>
-      </div>
-      <div>
-        <h2 class="footer-title">Servicios</h2>
-        <ul class="footer-list">
-          <li>Redes sociales y promociones</li>
-          <li>Flyers e identidad visual</li>
-          <li>Landing pages y webs sencillas</li>
+  <footer class="pie">
+    <div class="contenedor pie-inner">
+      <p class="pie-marca" aria-label="CREATREEBU">CREA<span>TREE</span>BU</p>
+      <p class="pie-texto">Estudio creativo independiente de diseño gráfico digital. Atención remota para toda Argentina.</p>
+      <nav aria-label="Pie de página">
+        <ul class="pie-nav">
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#pack">Pack Express</a></li>
+          <li><a href="#proceso">Proceso</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
-      </div>
-      <div>
-        <h2 class="footer-title">Zona de atención</h2>
-        <p class="footer-text">Las Toninas, Partido de La Costa, Buenos Aires. Atención online a toda Argentina.</p>
-      </div>
-      <div>
-        <h2 class="footer-title">Contacto</h2>
-        <ul class="footer-list" id="footer-contacto">
-          <li><a href="#contacto" data-wa="general">WhatsApp</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="container footer-bottom">
-      <p>© <span id="anio">2026</span> CREATREEBU. Los proyectos del portfolio son conceptuales.</p>
+      </nav>
+      <p class="pie-legal">Los proyectos del portfolio son conceptuales y no corresponden a clientes reales.</p>
+      <p class="pie-legal">© <span id="anio">2026</span> CREATREEBU</p>
     </div>
   </footer>
 
+  <!-- VISTA DETALLADA DE PROYECTO -->
+  <dialog class="modal" id="modal" aria-labelledby="modal-titulo">
+    <div class="modal-inner">
+      <button class="modal-cerrar" id="modal-cerrar" type="button" aria-label="Cerrar vista del proyecto">
+        <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M4 4 L16 16 M16 4 L4 16" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
+      </button>
+
+      <div class="modal-media">
+        <div class="modal-escena" id="modal-escena"></div>
+        <div class="modal-miniaturas" id="modal-miniaturas" role="group" aria-label="Imágenes del proyecto"></div>
+      </div>
+
+      <div class="modal-info">
+        <p class="modal-estado" id="modal-estado"></p>
+        <p class="modal-marca" id="modal-marca"></p>
+        <h2 class="modal-titulo" id="modal-titulo"></h2>
+        <p class="modal-desc" id="modal-desc"></p>
+        <p class="modal-nota" id="modal-nota"></p>
+        <dl class="modal-datos">
+          <div><dt>Categoría</dt><dd id="modal-cat"></dd></div>
+          <div><dt>Servicios</dt><dd id="modal-serv"></dd></div>
+        </dl>
+        <a class="btn btn--marino" id="modal-wa" data-wa-dinamico href="#contacto">Consultar por algo así</a>
+        <div class="modal-nav">
+          <button class="btn btn--linea-osc btn--sm" id="modal-prev" type="button">Anterior</button>
+          <span class="modal-pos" id="modal-pos"></span>
+          <button class="btn btn--linea-osc btn--sm" id="modal-next" type="button">Siguiente</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
   <!-- Aviso si el número de WhatsApp todavía no está configurado -->
-  <dialog id="wa-dialog" aria-labelledby="wa-dialog-titulo">
-    <h2 id="wa-dialog-titulo">El contacto por WhatsApp todavía no está disponible</h2>
+  <dialog class="aviso" id="wa-aviso" aria-labelledby="wa-aviso-titulo">
+    <h2 id="wa-aviso-titulo">El contacto por WhatsApp todavía no está disponible</h2>
     <p>El número de WhatsApp aún no fue configurado en esta web. Volvé a intentarlo más tarde.</p>
-    <button type="button" class="btn" id="wa-dialog-cerrar">Entendido</button>
+    <button type="button" class="btn btn--marino" id="wa-aviso-cerrar">Entendido</button>
   </dialog>
 
   <script src="script.js" defer></script>
